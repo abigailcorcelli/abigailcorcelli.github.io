@@ -1,5 +1,5 @@
 ---
-title: "Protecting the Pages: A Visualization of "
+title: "Protecting the Pages: A Visualization of Contemporary Book Banning"
 description: 
 cascade:
   featured_image: '/images/'
