@@ -55,3 +55,16 @@ footer {
     max-width: 100%; 
     height: auto; 
 }
+.header-image {
+    background-image: url('{{ "/assets/images/header-image.jpg" | relative_url }}');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set the text color for better visibility */
+    padding: 100px 0; /* Adjust the padding as needed */
+    text-align: center;
+}
+
+.centered-title {
+    color: inherit; /* Inherit the text color from the parent */
+}
+
