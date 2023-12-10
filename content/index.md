@@ -6,7 +6,7 @@ cascade:
 ---
 
 <div class="page-header">
-  <h1 class="project-name">"Protecting the Pages"/h1>
+  <h1 class="project-name">Protecting the Pages</h1>
   <h2 class="project-tagline">A digital representation of contemporary book banning.</h2>
 </div>
 
