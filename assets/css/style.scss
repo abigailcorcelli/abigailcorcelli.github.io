@@ -56,7 +56,7 @@ footer {
     height: auto; 
 }
 .header-image {
-    background-image: url('{{ "/assets/images/header-image.jpg" | relative_url }}');
+    background-image: url('{{ "IMG_66372.jpeg" | relative_url }}');
     background-size: cover;
     background-position: center;
     color: #fff; /* Set the text color for better visibility */
