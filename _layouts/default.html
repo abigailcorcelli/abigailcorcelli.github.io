@@ -14,15 +14,22 @@ layout: default
 
 <header>
     <div class="container">
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <!-- Add more navigation items as needed -->
-            </ul>
-        </nav>
+        <!-- Add a centered title -->
+        <h1 class="centered-title">{{ page.title | default: site.title }}</h1>
     </div>
+
+    <!-- Add a banner image -->
+    <div class="banner">
+        <img src="{{ '/assets/images/banner-image.jpg' | relative_url }}" alt="Banner Image">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+    </nav>
 </header>
 
 <main class="container">
