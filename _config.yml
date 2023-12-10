@@ -1,15 +1,22 @@
-remote_theme: pages-themes/cayman@v0.2.0
-lsi: false
-safe: true
-source: abigailcorcelli.github.io
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: Protecting the Pages
+description: A visualization of contemporary book banning
+author: abigailcorcelli
+lang: en-US
+url: "https://abigailcorcelli.github.io" # Update with your GitHub username
+baseurl: "/abigailcorcelli.github.io" # Update with your repository name if hosted in a subdirectory
+
+theme: null # Remove any reference to remote themes since you're using a custom layout
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+
 sass:
   sass_dir: _sass
   style: compressed
-
