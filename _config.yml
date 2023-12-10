@@ -12,7 +12,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "_layouts/default.html"
 
 plugins:
   - jekyll-feed
