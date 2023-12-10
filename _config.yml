@@ -2,10 +2,10 @@ title: Protecting the Pages
 description: A visualization of contemporary book banning
 author: abigailcorcelli
 lang: en-US
-url: "https://abigailcorcelli.github.io" # Update with your GitHub username
-baseurl: "/abigailcorcelli.github.io" # Update with your repository name if hosted in a subdirectory
+url: "https://abigailcorcelli.github.io" 
+baseurl: "/abigailcorcelli.github.io" 
 
-theme: null # Remove any reference to remote themes since you're using a custom layout
+theme: null 
 
 defaults:
   - scope:
