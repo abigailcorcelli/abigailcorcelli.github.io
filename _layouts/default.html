@@ -1,47 +1,27 @@
----
-layout: default
----
-
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your GitHub Pages Site</title>
 </head>
-     <!-- Replace the header content with an image -->
-    <header class=".header-image">
-    <div class="container">
-        <!-- Add a centered title -->
-        <h1 class="centered-title">{{ page.title | default: site.title }}</h1>
-    </div>
-
-    <!-- Add a banner image -->
-    <div class="banner">
-        <img src="{{ 'IMG_66372.jpeg' | relative_url }}" alt="Banner Image">
-    </div>
-
-<body>   
+<body>
+    <header>
+        <img src="IMG_66372.jpeg" alt="Banner Image">
+        <h1>YProtecting the Pages</h1>
+    </header>
 
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/content/About">About</a></li>
-            <li><a href="/content/Data">Data</a></li>
-             <li><a href="/content/Visualizations">Visualizations</a></li>
-            <!-- Add more navigation items as needed -->
+            <li><a href="content/About">About</a></li>
+            <li><a href="content/Visualizations">Visualizations</a></li>
+            <li><a href="content/Data">Data</a></li>
         </ul>
     </nav>
-</header>
 
-<main class="container">
-    {{ content }}
-</main>
-
-<footer>
-    <p>&copy; {{ site.year | date: "%Y" }} {{ site.author }}</p>
-</footer>
-
+    <main>
+        <!-- Your main content goes here -->
+    </main>
 </body>
 </html>
