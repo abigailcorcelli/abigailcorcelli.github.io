@@ -45,3 +45,18 @@ nav a {
     text-decoration: none;
     color: white;
 }
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%; /
+    margin-right: 10px; 
+}
+
+.caption {
+    margin: 0;
+}
