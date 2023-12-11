@@ -1,5 +1,5 @@
 # My final project for CIS 1051
-My project is two-fold: first, small-scale analysis and visualization of two metadata files that are the result of research I've been doing for a different project here at Temple. And second, make these visualizations publicly accessable on a webpage. 
+My project is two-fold: first, small-scale analysis and visualization of two metadata files that are the result of research I've been doing for a different project here at Temple. And second, make these visualizations publicly accessable on a webpage: abigailcorcelli.github.io/. 
 
 Video overviewing the project:
 
