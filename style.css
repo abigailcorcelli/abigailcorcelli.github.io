@@ -80,3 +80,29 @@ nav a {
 .side-by-side-container .caption {
     margin: 0 0 10px; 
 }
+.google-sheets-container {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border: 1px solid #d6d8db; 
+    border-radius: 8px; 
+}
+
+.google-sheets-container h2 {
+    color: #007BFF; 
+}
+
+.google-sheets-container p {
+    margin-top: 10px; 
+}
+
+.google-sheets-container a {
+    color: #0062cc; 
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.google-sheets-container a:hover {
+    color: #004085; 
+}
