@@ -58,7 +58,8 @@ nav a {
 }
 
 .caption {
-    margin: 60;
+    margin: 0 0 10px; 
+}
 .side-by-side-container {
     display: flex;
     justify-content: space-between;
