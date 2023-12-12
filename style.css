@@ -84,13 +84,13 @@ nav a {
     max-width: 600px; 
     margin: 20px auto; 
     padding: 20px;
-    background-color: #f8f9fa; 
-    border: 1px solid #d6d8db; 
+    background-color: #white; 
+    border: 1px solid #blue; 
     border-radius: 8px; 
 }
 
 .datalinkformat h2 {
-    color: #007BFF; 
+    color: #black; 
 }
 
 .datalinkformat p {
@@ -98,11 +98,11 @@ nav a {
 }
 
 .datalinkformat a {
-    color: #0062cc; 
+    color: #black; 
     text-decoration: none;
     font-weight: bold; 
 }
 
 .datalinkformat a:hover {
-    color: #004085; 
+    color: #blue; 
 }
