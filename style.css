@@ -45,12 +45,12 @@ nav a {
     text-decoration: none;
     color: white;
 }
-.image-container {
+.imgcont {
     text-align: center;
     margin: 20px 0;
 }
 
-.image-container img {
+.imgcont img {
     max-width: 100%;
     height: auto;
     width: 400px;
@@ -60,27 +60,27 @@ nav a {
 .caption {
     margin: 0 0 10px; 
 }
-.side-by-side-container {
+.rightleftcont {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
 }
 
-.side-by-side-container img {
+.rightleftcont img {
     max-width: 45%; 
     height: auto; 
 }
 
-.side-by-side-container .text-container {
+.rightleftcont .text-container {
     flex: 1;
     margin-left: 20px; 
 }
 
-.side-by-side-container .caption {
+.rightleftcont .caption {
     margin: 0 0 10px; 
 }
-.google-sheets-container {
+.datalinkformat {
     max-width: 600px; 
     margin: 20px auto; 
     padding: 20px;
@@ -89,20 +89,20 @@ nav a {
     border-radius: 8px; 
 }
 
-.google-sheets-container h2 {
+.datalinkformat h2 {
     color: #007BFF; 
 }
 
-.google-sheets-container p {
+.datalinkformat p {
     margin-top: 10px; 
 }
 
-.google-sheets-container a {
+.datalinkformat a {
     color: #0062cc; 
     text-decoration: none;
     font-weight: bold; 
 }
 
-.google-sheets-container a:hover {
+.datalinkformat a:hover {
     color: #004085; 
 }
